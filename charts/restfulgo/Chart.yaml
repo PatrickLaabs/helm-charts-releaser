@@ -1,4 +1,13 @@
-apiVersion: v1
-description: A Helm chart for Kubernetes
+apiVersion: v2
+appVersion: 0.0.6
+description: Helm Chart for restfulapi written in Go
+home: https://github.com/PatrickLaabs/restfulapi
+kubeVersion: '>=1.19.0-0'
+maintainers:
+- email: patrick.laabs@me.com
+  name: patricklaabs
 name: restfulapi
-version: 1.0.0
+sources:
+- https://github.com/PatrickLaabs/restfulapi
+version: 1.0.2
+icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
