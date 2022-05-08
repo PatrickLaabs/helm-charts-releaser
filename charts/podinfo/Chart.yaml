@@ -10,3 +10,4 @@ name: podinfo
 sources:
 - https://github.com/stefanprodan/podinfo
 version: 6.1.4
+icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
