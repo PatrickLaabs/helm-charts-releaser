@@ -138,12 +138,3 @@ tolerations: []
 affinity: {}
 
 podAnnotations: {}
-
-# failure conditions
-faults:
-  delay: false
-  error: false
-  unhealthy: false
-  unready: false
-  testFail: false
-  testTimeout: false
