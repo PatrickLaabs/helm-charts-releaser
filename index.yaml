@@ -17,6 +17,25 @@ entries:
     urls:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/podinfo-6.1.4/podinfo-6.1.4.tgz
     version: 6.1.4
+  rest:
+  - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2022-05-14T13:13:16.765156878Z"
+    description: Helm Chart for restfulapi written in Go
+    digest: 0aa373db4d98db84037f78c42daf6d0540862eb82dbbf71ebe85bebed3ebbba7
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.1.2/rest-0.1.2.tgz
+    version: 0.1.2
   restfulapi:
   - apiVersion: v2
     appVersion: 0.0.6
@@ -43,4 +62,4 @@ entries:
     urls:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/restfulapi-1.0.0/restfulapi-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-08T19:03:17.374449+02:00"
+generated: "2022-05-14T13:13:16.765165678Z"
