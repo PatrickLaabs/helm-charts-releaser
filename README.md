@@ -1,4 +1,5 @@
 # Helm Chart Releaser Repo
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/patricklaabs)](https://artifacthub.io/packages/search?repo=patricklaabs)
 
 ## Development flow for Helm Charts
 
