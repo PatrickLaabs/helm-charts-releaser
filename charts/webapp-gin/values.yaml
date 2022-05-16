@@ -1,14 +1,14 @@
-# Default values for rest.
+# Default values for webapp-gin.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: ghcr.io/patricklaabs/restfulapi
+  repository: ghcr.io/patricklaabs/webapp-gin
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.1.0"
+  tag: "0.0.15"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -21,7 +21,7 @@ serviceAccount:
   annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: "rest-service"
+  name: "webapp-service"
 
 podAnnotations: {}
 
@@ -37,9 +37,9 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: LoadBalancer
-  port: 11800
-  targetPort: 8080
+  type: ClusterIP
+  port: 12800
+  targetPort: 9090
   protocol: TCP
   name: http
 
@@ -50,7 +50,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: rest.example.com
+    - host: webapp.example.com
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -74,7 +74,7 @@ resources: {}
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 100
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
 
