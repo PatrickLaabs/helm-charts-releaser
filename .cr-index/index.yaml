@@ -19,6 +19,24 @@ entries:
     version: 6.1.4
   rest:
   - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-16T13:56:08.82+02:00"
+    description: A Helm Chart for restfulapi written in Go
+    digest: a84b8c18e4c6162d3a3e83885deea683609b05be5367623537d67762f07ce9cd
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.2.1/rest-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
     appVersion: 0.0.8
     created: "2022-05-14T15:17:06.924834+02:00"
     description: Helm Chart for restfulapi written in Go
@@ -62,4 +80,24 @@ entries:
     urls:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/restfulapi-1.0.0/restfulapi-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-14T15:17:07.239015+02:00"
+  webapp-gin:
+  - apiVersion: v2
+    appVersion: 0.0.15
+    created: "2022-05-16T13:56:09.284384+02:00"
+    description: A Helm Chart for Installing a WebApp inside K8s for accessing the
+      restfulapi.
+    digest: 523b531e3ecdaeacbb46d738465214d920ace955297af4c128d23b97da8bad1f
+    home: https://github.com/PatrickLaabs/webapp-gin
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: webapp-gin
+    sources:
+    - https://github.com/PatrickLaabs/webapp-gin
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/webapp-gin-0.1.0/webapp-gin-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-16T13:56:09.284395+02:00"

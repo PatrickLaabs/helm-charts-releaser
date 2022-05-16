@@ -15,7 +15,7 @@
 
 ## Chart Releaser CLI (cr)
 
-- cr package --config cr.yaml ./charts/<chart>
+- cr package --config config.yaml ./charts/<chart>
 - cr upload --config config.yaml --skip-existing
 - cr index --config config.yaml
 
