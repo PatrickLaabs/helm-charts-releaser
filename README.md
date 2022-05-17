@@ -15,15 +15,6 @@
 
 ## Chart Releaser CLI (cr)
 
-- cr package --config config.yaml ./charts/<chart>
+- cr package --config config.yaml ./charts/*
 - cr upload --config config.yaml --skip-existing
 - cr index --config config.yaml
-
-### Upload / Edit your index.yaml to gh-pages branch
-
-- copy content from index.yaml (.cr-index/index.yaml)
-- switch branch to gh-pages
-- update index.yaml
-- commit & push
-
-## Chart Tester CLI (ct)
