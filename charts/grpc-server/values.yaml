@@ -1,14 +1,14 @@
-# Default values for rest.
+# Default values for grpc-server.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+replicaCount: 2
 
 image:
-  repository: ghcr.io/patricklaabs/restfulapi
+  repository: ghcr.io/patricklaabs/grpc-qs
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.1.0"
+  tag: "0.0.7"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -21,7 +21,7 @@ serviceAccount:
   annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: "rest-service"
+  name: "grpc-service"
 
 podAnnotations: {}
 
@@ -37,9 +37,9 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
-  port: 11800
-  targetPort: 8080
+  type: LoadBalancer
+  port: 13000
+  targetPort: 50051
   protocol: TCP
   name: http
 
@@ -50,7 +50,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: rest.example.com
+    - host: grpc.example.com
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -73,7 +73,7 @@ resources: {}
 
 autoscaling:
   enabled: false
-  minReplicas: 1
+  minReplicas: 2
   maxReplicas: 5
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
