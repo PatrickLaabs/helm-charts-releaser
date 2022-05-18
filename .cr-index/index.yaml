@@ -1,0 +1,214 @@
+apiVersion: v1
+entries:
+  grpc-server:
+  - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2022-05-18T14:05:47.495679+02:00"
+    description: A Helm chart for a GRPC Server with simple communications and without
+      security. Just for testing purposes!
+    digest: f56108a2593838e79be50c5f487db57dba2bbdb680242bdf198f738ddef0c4e6
+    home: https://github.com/PatrickLaabs/grpc-qs
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: grpc-server
+    sources:
+    - https://github.com/PatrickLaabs/grpc-qs
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/grpc-server-0.1.2/grpc-server-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2022-05-17T12:47:29.379307924Z"
+    description: A Helm chart for a GRPC Server with simple communications and without
+      security. Just for testing purposes!
+    digest: 517ef0b3a66feecce964db0d9989cdfba57b21c11a32048408e3669337471eec
+    home: https://github.com/PatrickLaabs/grpc-qs
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: grpc-server
+    sources:
+    - https://github.com/PatrickLaabs/grpc-qs
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/grpc-server-0.1.0/grpc-server-0.1.0.tgz
+    version: 0.1.0
+  podinfo:
+  - apiVersion: v1
+    appVersion: 6.1.4
+    created: "2022-05-18T14:05:47.803354+02:00"
+    description: Podinfo Helm chart for Kubernetes
+    digest: bd33efe1e272e2f958c8c6f24bfb1256b23316761a0521a6bc9e5c0311fa6883
+    home: https://github.com/stefanprodan/podinfo
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/podinfo-6.1.5/podinfo-6.1.5.tgz
+    version: 6.1.5
+  - apiVersion: v1
+    appVersion: 6.1.4
+    created: "2022-05-07T19:41:56.186527+02:00"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 2ca915519b7d2413456af81542c075bb1b6bed5e2adb0c4758349168f6c71b95
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/podinfo-6.1.4/podinfo-6.1.4.tgz
+    version: 6.1.4
+  rest:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-18T14:05:48.449827+02:00"
+    description: A Helm Chart for restfulapi written in Go
+    digest: fb31a86cc92e22d888f0f1aa339d8182310f144538d65c813a67788268658bc9
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.2.4/rest-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-17T12:47:29.471497394Z"
+    description: A Helm Chart for restfulapi written in Go
+    digest: b244b44bc62d2a6e8a26a0cf9f7696c7c2068b8e460274786e5c34d6b851c0c0
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.2.2/rest-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-16T11:50:10.142453508Z"
+    description: A Helm Chart for restfulapi written in Go
+    digest: 55e7aada540c0b37dcd9a2488a5fbc2f406bcd76e3ed275a53ccbf5e042c3d70
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.2.1/rest-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2022-05-14T15:17:06.924834+02:00"
+    description: Helm Chart for restfulapi written in Go
+    digest: 26b2cfb70552f16db67d237aadfc7a9fb1c4d579770a10ff5a955067b2f0d102
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: rest
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/rest-0.1.2/rest-0.1.2.tgz
+    version: 0.1.2
+  restfulapi:
+  - apiVersion: v2
+    appVersion: 0.0.6
+    created: "2022-05-08T19:03:17.374436+02:00"
+    description: Helm Chart for restfulapi written in Go
+    digest: 39d4ef9854c4ba96cc1880c54685bf1899bb72592f36e36fc8f5a30c91ba5527
+    home: https://github.com/PatrickLaabs/restfulapi
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: restfulapi
+    sources:
+    - https://github.com/PatrickLaabs/restfulapi
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/restfulapi-1.0.2/restfulapi-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    created: "2022-05-07T13:26:11.54866+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 3e0e9435121af222355f40354ffe41da189f0e9bc5c09e3cbb7fda7839d5ed2e
+    name: restfulapi
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/restfulapi-1.0.0/restfulapi-1.0.0.tgz
+    version: 1.0.0
+  webapp-gin:
+  - apiVersion: v2
+    appVersion: 0.0.15
+    created: "2022-05-18T14:05:49.091768+02:00"
+    description: A Helm Chart for Installing a WebApp inside K8s for accessing the
+      restfulapi.
+    digest: caf37da852a844a9359b86b333ec29e0542190b2510b5458c9866a1a9f249e78
+    home: https://github.com/PatrickLaabs/webapp-gin
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: webapp-gin
+    sources:
+    - https://github.com/PatrickLaabs/webapp-gin
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/webapp-gin-0.1.2/webapp-gin-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.15
+    created: "2022-05-16T11:50:10.244891302Z"
+    description: A Helm Chart for Installing a WebApp inside K8s for accessing the
+      restfulapi.
+    digest: 852aa8b18c1ff9888fe210d5fb4db759a2566ed2d74c7e6b557b0843140778f8
+    home: https://github.com/PatrickLaabs/webapp-gin
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: webapp-gin
+    sources:
+    - https://github.com/PatrickLaabs/webapp-gin
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/webapp-gin-0.1.0/webapp-gin-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-18T14:05:49.09179+02:00"
