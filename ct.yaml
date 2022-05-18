@@ -2,11 +2,6 @@
 remote: origin
 target-branch: main
 charts:
-  - charts/rest
-  - charts/webapp-gin
+  - stable
 excluded-charts:
-  - charts/grpc-server
-  - charts/podinfo
-# chart-repos:
-#   - bitnami=https://charts.bitnami.com/bitnami
-#  helm-extra-args: --timeout 600s
+  - incubator
