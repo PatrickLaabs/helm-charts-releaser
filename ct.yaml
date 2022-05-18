@@ -2,6 +2,6 @@
 remote: origin
 target-branch: main
 chart-dirs:
-  - stable
+  - charts/stable
 excluded-charts:
-  - incubator
+  - charts/incubator
