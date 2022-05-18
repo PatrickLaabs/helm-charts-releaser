@@ -1,6 +1,6 @@
 apiVersion: v2
-name: webapp-gin
-description: A Helm Chart for Installing a WebApp inside K8s for accessing the restfulapi.
+name: rest
+description: A Helm Chart for restfulapi written in Go
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -15,19 +15,19 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
+version: 0.2.4
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "0.0.15"
+appVersion: "0.1.0"
 
-home: https://github.com/PatrickLaabs/webapp-gin
+home: https://github.com/PatrickLaabs/restfulapi
 kubeVersion: '>=1.19.0-0'
 maintainers:
 - email: patrick.laabs@me.com
   name: patricklaabs
 sources:
-- https://github.com/PatrickLaabs/webapp-gin
+- https://github.com/PatrickLaabs/restfulapi
 icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif

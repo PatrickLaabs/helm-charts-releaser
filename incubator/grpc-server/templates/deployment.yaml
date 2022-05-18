@@ -39,13 +39,17 @@ spec:
               protocol: TCP
           livenessProbe:
             exec:
-              command: ["grpc_health_probe-linux-amd64", "-addr=0.0.0.0:50051"]
-            initialDelaySeconds: 5
+              command:
+                - grpc_health_probe-linux-amd64
+                - -addr=:50051
+            initialDelaySeconds: 10
             timeoutSeconds: 5
           readinessProbe:
             exec:
-              command: ["grpc_health_probe-linux-amd64", "-addr=0.0.0.0:50051"]
-            initialDelaySeconds: 5
+              command:
+                - grpc_health_probe-linux-amd64
+                - -addr=:50051
+            initialDelaySeconds: 10
             timeoutSeconds: 5
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
