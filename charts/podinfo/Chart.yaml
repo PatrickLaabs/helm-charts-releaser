@@ -9,5 +9,5 @@ maintainers:
 name: podinfo
 sources:
 - https://github.com/stefanprodan/podinfo
-version: 6.1.4
+version: 6.1.5
 icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
