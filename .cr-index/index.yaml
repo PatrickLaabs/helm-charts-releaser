@@ -3,7 +3,7 @@ entries:
   grpc-server:
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2022-05-18T14:06:33.368155+02:00"
+    created: "2022-05-18T14:09:14.810949+02:00"
     description: A Helm chart for a GRPC Server with simple communications and without
       security. Just for testing purposes!
     digest: f56108a2593838e79be50c5f487db57dba2bbdb680242bdf198f738ddef0c4e6
@@ -42,7 +42,7 @@ entries:
   podinfo:
   - apiVersion: v1
     appVersion: 6.1.4
-    created: "2022-05-18T14:06:33.74852+02:00"
+    created: "2022-05-18T14:09:15.122511+02:00"
     description: Podinfo Helm chart for Kubernetes
     digest: bd33efe1e272e2f958c8c6f24bfb1256b23316761a0521a6bc9e5c0311fa6883
     home: https://github.com/stefanprodan/podinfo
@@ -76,7 +76,7 @@ entries:
   rest:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-05-18T14:06:34.400784+02:00"
+    created: "2022-05-18T14:09:15.781806+02:00"
     description: A Helm Chart for restfulapi written in Go
     digest: fb31a86cc92e22d888f0f1aa339d8182310f144538d65c813a67788268658bc9
     home: https://github.com/PatrickLaabs/restfulapi
@@ -175,7 +175,7 @@ entries:
   webapp-gin:
   - apiVersion: v2
     appVersion: 0.0.15
-    created: "2022-05-18T14:06:35.106936+02:00"
+    created: "2022-05-18T14:09:16.43725+02:00"
     description: A Helm Chart for Installing a WebApp inside K8s for accessing the
       restfulapi.
     digest: caf37da852a844a9359b86b333ec29e0542190b2510b5458c9866a1a9f249e78
@@ -211,4 +211,4 @@ entries:
     urls:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/webapp-gin-0.1.0/webapp-gin-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-18T14:06:35.106958+02:00"
+generated: "2022-05-18T14:09:16.43728+02:00"
