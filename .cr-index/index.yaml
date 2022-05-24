@@ -21,6 +21,25 @@ entries:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/grpc-server-0.1.3/grpc-server-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
+    appVersion: 0.1.6-alpha
+    created: "2022-05-24T11:02:30.757315+02:00"
+    description: A Helm chart for a GRPC Server with simple communications and without
+      security. Just for testing purposes!
+    digest: dee17b3dc3b6c65cf355433a7e429e5b067f0d9497f07e09d4c1c6fb40c07b79
+    home: https://github.com/PatrickLaabs/grpc-qs
+    icon: https://github.com/PatrickLaabs/patricklaabs/raw/main/images/gopher_with_coffee.gif
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: patrick.laabs@me.com
+      name: patricklaabs
+    name: grpc-server
+    sources:
+    - https://github.com/PatrickLaabs/grpc-qs
+    type: application
+    urls:
+    - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/grpc-server-0.1.3-alpha/grpc-server-0.1.3-alpha.tgz
+    version: 0.1.3-alpha
+  - apiVersion: v2
     appVersion: 0.0.7
     created: "2022-05-18T14:24:10.530684+02:00"
     description: A Helm chart for a GRPC Server with simple communications and without
@@ -230,4 +249,4 @@ entries:
     urls:
     - https://github.com/PatrickLaabs/helm-charts-releaser/releases/download/webapp-gin-0.1.0/webapp-gin-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-20T20:36:24.019235+02:00"
+generated: "2022-05-24T11:02:32.641318+02:00"
